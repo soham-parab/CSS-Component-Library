@@ -1,0 +1,23 @@
+
+:root {
+    --primary-color: #002852;
+    --secondary-color: white;
+    --black: #001224;
+}
+
+.nav {
+    background-color: var(--primary-color)    ;
+    color: white;
+    height: 4rem;
+    margin:0rem;
+    padding:0.5rem;
+}
+
+.body {
+   
+}
+
+.footer{
+    background-color: var(--black);
+    
+}
