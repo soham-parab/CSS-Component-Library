@@ -32,13 +32,12 @@
 
 main {
    display: flex;
+   height: 100%;
 }
 
 aside {
    height: 93vh;
    background-color: var(--footer-black);
-   /* position: sticky; */
-   /* top:10vh; */
    width: 20%;
 }
 
@@ -91,4 +90,27 @@ aside {
 
 .aside li:hover {
    background-color: #ececec;
+}
+
+section {
+   padding: 5rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.input {
+   width: 20vw;
+   height: 3vh;
+   /* padding-top: 1rem;
+   text-align: center;
+   align-items: center;
+   margin-top: 0.5rem; */
+   padding: 1rem;
+   margin: 0.5rem;
+   outline: none;
+}
+
+.input:focus {
+   border-color: var(--primary-color);
+   box-shadow: 0 0 4px 0 var(--primary-color);
 }
