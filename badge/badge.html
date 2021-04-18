@@ -1,84 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./badge.css" />
+      <script
+         src="https://kit.fontawesome.com/6ee8de3ded.js"
+         crossorigin="anonymous"
+      ></script>
+      <title>TetherUI</title>
+   </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./badge.css">
-    <title>TetherUI</title>
-</head>
+   <body class="body">
+      <header>
+         <nav class="nav-container">
+            <div><a class="nav-container-link" href="">Home</a></div>
+            <div>
+               <a class="nav-container-link" href="./documentation.html"
+                  >Docs</a
+               >
+            </div>
 
-<body>
+            <div><a class="nav-container-link" href="">Github</a></div>
+         </nav>
+      </header>
 
+      <main>
+         <aside>
+            <ul class="sidebar-list">
+               <li class="sidebar-list-header">Components</li>
 
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./usingtether/usingtether.html"
+                     >Using Tether</a
+                  >
+               </li>
+               <li></li>
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./navigation/nav.html"
+                     >Navigation</a
+                  >
+               </li>
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./card/card.html">Cards</a>
+               </li>
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./buttons/buttons.html"
+                     >Button</a
+                  >
+               </li>
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./alert/alerts.html">Alerts</a>
+               </li>
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./badge/badge.html">Badge</a>
+               </li>
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./rating/rating.html">Rating</a>
+               </li>
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./avatar/avatar.html">Avatar</a>
+               </li>
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./lists/lists.html">Lists</a>
+               </li>
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./icons/icons.html">Icons</a>
+               </li>
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./modal/modal.html">Modal</a>
+               </li>
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./image/image.html">Image</a>
+               </li>
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./input/input.html">Input</a>
+               </li>
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./searchbar/searchbar.html"
+                     >Search Bar</a
+                  >
+               </li>
+               <li class="sidebar-list">
+                  <a class="sidebar-link" href="./typography/typography.html"
+                     >Typography</a
+                  >
+               </li>
+            </ul>
+         </aside>
+         <section>
+            <div class="badge badgePrimary">Default</div>
 
-    <!-- <nav class="nav-container">
-        <div><a class="nav-container-link" href="">Home</a></div>
-        <div> <a class="nav-container-link" href="../documentation.html">Docs</a></div>
+            <div class="badge badgeSuccess">Success</div>
 
-        <div><a class="nav-container-link" href="">Github</a></div>
-
-    </nav> -->
-
-    
-    <!-- <div>
-
-        <ul class="component-list">
-            <h2>
-                <li class="component-list-header">Components</li>
-            </h2>
-
-            <li class="component-list"><a class="component-link" href="">Using Tether</a>
-            <li>
-            <li class="component-list"><a class="component-link" href="../navigation/nav.html">Navigation</a></li>
-            <li class="component-list"><a class="component-link" href="../card/card.html">Cards</a> </li>
-            <li class="component-list"><a class="component-link" href="../buttons/buttons.html">Button</a> </li>
-            <li class="component-list"><a class="component-link" href="../alert/alerts.html">Alerts</a> </li>
-            <li class="component-list"><a class="component-link" href="./badge/badge.html">Badge</a> </li>
-            <li class="component-list"><a class="component-link" href="../rating/rating.html">Rating</a> </li>
-            <li class="component-list"><a class="component-link" href="../avatar/avatar.html">Avatar</a> </li>
-            <li class="component-list"><a class="component-link" href="../lists/lists.html">Lists</a> </li>
-            <li class="component-list"><a class="component-link" href="../icons/icons.html">Icons</a> </li>
-            <li class="component-list"><a class="component-link" href="../modal/modal.html">Modal</a> </li>
-            <li class="component-list"><a class="component-link" href="../image/image.html">Image</a></li>
-            <li class="component-list"><a class="component-link" href="../input/input.html">Input</a></li>
-            <li class="component-list"><a class="component-link" href="../searchbar/searchbar.html">Search Bar</a> </li>
-        </ul>
-    </div> -->
-
-    <div class="div-example">
-        <span class="badge badge-default">PENDING</span>
-        <span class="badge badge-success">SUCCESS</span>
-        <span class="badge badge-error">ERROR</span>       
-       
-
-        <!-- <h4>
-            Badge on Icons/Avatars
-        </h4>
-        <button class="icon-button">
-            <span class="material-icons">
-                notifications
-            </span>
-            <span class="badge-notification2">25</span>
-        </button> -->
-    
-    
-    
-        <span class="button">Inbox</span>
-        <span class="badge">3</span></a>
-    
-
-
-
-    </div>
-
-
-
-
-
-
-
-</body>
-
+            <div class="badge badgeDelete">Remove</div>
+         </section>
+      </main>
+   </body>
 </html>

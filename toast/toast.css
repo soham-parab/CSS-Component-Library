@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@300&family=Montserrat&family=Nanum+Gothic&family=Noto+Serif&family=Quicksand&family=Raleway:wght@200&family=Roboto+Slab:wght@300&family=Rubik:wght@300&family=Source+Sans+Pro&family=Ubuntu:wght@300&family=Work+Sans:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
-@import url(../buttons/buttons.css);
 :root {
    font-family: "Noto Serif", serif;
 
@@ -32,19 +31,16 @@
 }
 
 main {
-   /* display: flex; */
+   display: flex;
    height: 100%;
 }
 
 aside {
-   height: 100vh;
+   height: 93vh;
    background-color: var(--footer-black);
    /* position: sticky; */
    /* top:10vh; */
    width: 20%;
-   position: relative;
-
-   left: 0;
 }
 
 .div {
@@ -94,42 +90,43 @@ aside {
    color: rgb(153, 197, 255);
 }
 
+.aside li:hover {
+   background-color: #ececec;
+}
+
+img {
+   height: 1.5vh;
+   width: 1.5vh;
+   /* background-color: yellowgreen; */
+   margin: 0 0.2rem;
+}
+
 section {
-   padding: 6rem;
+   padding: 4rem;
 }
 
-.btn {
-   border: 1px solid var(--primary-color);
-   margin: 0.5rem;
+.toast {
+   border: 1px solid black;
+   padding: 1rem;
+   border-radius: 5px;
+   box-shadow: 9px 9px 11px -3px rgba(0, 40, 82, 0.79);
+   -webkit-box-shadow: 9px 9px 11px -3px rgba(0, 40, 82, 0.79);
+   -moz-box-shadow: 9px 9px 11px -3px rgba(0, 40, 82, 0.79);
 }
 
-.modal {
+.toast-header {
    display: flex;
-   /* align-items: center; */
-
-   padding: 0.8rem;
-   border: 2px solid var(--primary-color);
-   flex-direction: column;
-   border-radius: 2%;
-}
-
-.modal-body,
-.modal-title {
-   display: flex;
-   padding: 0.3rem;
-   justify-content: center;
-}
-
-.modal-title {
-   font-size: 1.3rem;
-}
-
-.modal-container {
-   display: flex;
-   height: 100%;
-   width: 100%;
-   flex-direction: column;
-   padding: 0rem 2rem;
+   justify-content: space-between;
    align-items: center;
-   justify-content: flex-start;
+   font-size: 1.2rem;
+   padding-bottom: 0.3rem;
+   border-bottom: 1px solid grey;
+}
+
+.header-div {
+   font-size: 0.8rem;
+}
+
+.toast-body {
+   padding-top: 0.5rem;
 }
