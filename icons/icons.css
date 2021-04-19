@@ -66,9 +66,11 @@ aside {
    text-decoration: none;
    transition: all 0.3s cubic-bezier(0, 0.76, 1, 1);
 }
+
 .sidebar-list a:hover {
    padding: 1rem;
 }
+
 .nav-container-link {
    display: flex;
    text-decoration: none;

@@ -120,3 +120,10 @@ section {
    color: var(--primary-color);
    font-size: 1.2rem;
 }
+
+.nav-link{
+   padding:0.3rem 1rem;
+   background-color: var(--primary-color);
+   color:white;
+   border-radius: 3px;
+}
