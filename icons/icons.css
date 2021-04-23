@@ -112,3 +112,11 @@ section {
    min-width: 2.5vw;
    cursor: pointer;
 }
+
+.sidebar-link-active {
+   font-family: "Source Sans Pro", sans-serif;
+   text-decoration: none;
+   color: white;
+   font-size: large;
+   color: rgb(153, 197, 255);
+}

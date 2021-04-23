@@ -114,3 +114,11 @@ section {
    border-color: var(--primary-color);
    box-shadow: 0 0 4px 0 var(--primary-color);
 }
+
+.sidebar-link-active {
+   font-family: "Source Sans Pro", sans-serif;
+   text-decoration: none;
+   color: white;
+   font-size: large;
+   color: rgb(153, 197, 255);
+}

@@ -235,3 +235,11 @@ section {
       border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
    color: white;
 }
+
+.sidebar-link-active {
+   font-family: "Source Sans Pro", sans-serif;
+   text-decoration: none;
+   color: white;
+   font-size: large;
+   color: rgb(153, 197, 255);
+}
