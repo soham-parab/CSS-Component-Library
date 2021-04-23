@@ -15,6 +15,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   /* overflow-x: hidden; */
 }
 
 .nav-container {
@@ -106,8 +107,8 @@ section {
 .main-div {
    display: flex;
    justify-content: space-around;
-   margin: 4rem 8rem;
-   /* background-color: grey; */
+   margin-top: 2rem;
+
    width: 100%;
    align-items: baseline;
 }

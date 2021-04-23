@@ -58,6 +58,7 @@ iframe {
 
 main {
    display: flex;
+   width: 100%;
 }
 
 .div {

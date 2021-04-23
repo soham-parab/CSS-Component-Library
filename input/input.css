@@ -55,7 +55,7 @@ iframe {
 
 main {
    display: flex;
-   height: 100%;
+   width: 100%;
 }
 
 .div {
@@ -111,6 +111,7 @@ main {
 
 section {
    padding: 5rem;
+   margin-top: 4rem;
    display: flex;
    flex-direction: column;
 }
