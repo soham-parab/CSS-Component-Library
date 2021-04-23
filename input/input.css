@@ -18,12 +18,35 @@
 }
 
 .nav-container {
-   width: 100%;
    display: flex;
+   width: 100%;
+   height: 10vh;
+   position: fixed;
+   top: 0;
    background-color: var(--primary-color);
    justify-content: space-around;
-   height: 8vh;
    align-items: center;
+   z-index: 1;
+}
+
+aside {
+   width: 20%;
+   background-color: var(--footer-black);
+   height: 90vh;
+   position: sticky;
+   top: 10vh;
+   height: 90vh;
+   overflow-y: auto;
+}
+
+.parent-container {
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+}
+
+iframe {
+   margin: 4rem;
 }
 
 .nav-container a:hover {
@@ -33,12 +56,6 @@
 main {
    display: flex;
    height: 100%;
-}
-
-aside {
-   height: 93vh;
-   background-color: var(--footer-black);
-   width: 20%;
 }
 
 .div {
