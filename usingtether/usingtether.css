@@ -116,3 +116,23 @@ main {
    font-size: large;
    color: rgb(153, 197, 255);
 }
+
+.parent-container {
+   padding: 2rem;
+   margin-top: 2rem;
+}
+
+h1 {
+   padding-left: 2rem;
+}
+h3 {
+   padding-top: 2rem;
+   padding-left: 2rem;
+}
+
+p {
+   padding-top: 1rem;
+}
+iframe {
+   margin: 2rem;
+}

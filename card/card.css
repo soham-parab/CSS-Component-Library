@@ -119,6 +119,7 @@ aside {
 
 .btn-primary {
    padding: 0.7rem;
+
    /* background-color: var(--primary-color); */
    margin-top: 2rem;
    background-color: var(--primary-color);

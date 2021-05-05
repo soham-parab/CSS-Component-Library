@@ -18,12 +18,15 @@
 }
 
 .nav-container {
-   width: 100%;
    display: flex;
+   width: 100%;
+   height: 10vh;
+   position: sticky;
+   top: 0;
    background-color: var(--primary-color);
    justify-content: space-around;
-   height: 8vh;
    align-items: center;
+   z-index: 1;
 }
 
 .nav-container a:hover {
@@ -36,9 +39,22 @@ main {
 }
 
 aside {
-   height: 93vh;
-   background-color: var(--footer-black);
    width: 20%;
+   background-color: var(--footer-black);
+   height: 90vh;
+   position: sticky;
+   top: 10vh;
+   height: 90vh;
+   overflow-y: auto;
+}
+.parent-container {
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+}
+
+iframe {
+   margin: 4rem;
 }
 
 .div {
@@ -96,6 +112,7 @@ section {
    padding: 4rem;
    display: flex;
    width: 100%;
+   justify-content: space-around;
 }
 
 .badge {
@@ -103,12 +120,24 @@ section {
 }
 
 .badgePrimary {
+   color: #1e70f5;
+   background: #3b83f621;
+   padding: 0.1rem 0.4rem;
+   font-size: 0.9rem;
 }
 
 .badgeSuccess {
+   padding: 0.1rem 0.4rem;
+   font-size: 0.9rem;
+   color: #22543d;
+   background: #c6f6d5;
 }
 
 .badgeDelete {
+   padding: 0.1rem 0.4rem;
+   font-size: 0.9rem;
+   color: #822727;
+   background: #fed7d7;
 }
 
 .sidebar-link-active {
@@ -117,4 +146,8 @@ section {
    color: white;
    font-size: large;
    color: rgb(153, 197, 255);
+}
+
+.logo-linkedin {
+   padding: 0.2rem;
 }
